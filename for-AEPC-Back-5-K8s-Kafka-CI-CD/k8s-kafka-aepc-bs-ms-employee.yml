@@ -1,0 +1,7 @@
+server:
+  port: 8482
+spring:
+  application:
+    name: k8s-kafka-aepc-bs-ms-employee
+  datasource:
+    url: jdbc:mysql://mysql-ms-dbs:3306/employees-db?createDatabaseIfNotExist=true

@@ -1,0 +1,5 @@
+server:
+  port: 8485
+spring:
+  application:
+    name: k8s-kafka-aepc-gateway-service

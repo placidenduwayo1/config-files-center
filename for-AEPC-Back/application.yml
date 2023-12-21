@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+#to activate microservices to be discovered
+  cloud:
+    discovery:
+      enabled: true
+    #for microservices that interact with external microservices, this is to activate spring cloud circuit breaker resilience4j
+    openfeign:
+      circuitbreaker:
+        enabled: true
+# to indicate where services registration is running on
+eureka:
+  client:
+    service-url:
+     defaultZone: http://aepc-ms-registration-api:8761/eureka/ # this is docker image of regsitraion service

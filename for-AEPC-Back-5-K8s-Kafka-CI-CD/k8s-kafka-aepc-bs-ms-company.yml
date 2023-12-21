@@ -1,0 +1,7 @@
+server:
+  port: 8483
+spring:
+  application:
+    name: k8s-kafka-aepc-bs-ms-company
+  datasource:
+    url: jdbc:mysql://mysql-ms-dbs:3306/companies-db?createDatabaseIfNotExist=true

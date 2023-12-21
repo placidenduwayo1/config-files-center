@@ -1,0 +1,9 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: k8s-kafka-aepc-ms-registry-service
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false

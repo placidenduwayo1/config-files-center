@@ -1,0 +1,5 @@
+server:
+  port: 8281
+spring:
+  application:
+    name: k8s-aepc-gateway-service

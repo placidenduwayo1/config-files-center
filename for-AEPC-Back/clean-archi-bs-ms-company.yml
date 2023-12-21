@@ -1,0 +1,7 @@
+server:
+  port: 8284
+spring:
+  application:
+    name: clean-archi-bs-ms-company
+  datasource:
+    url: jdbc:mysql://aepc-ms-apis-db:3306/companies-db?createDatabaseIfNotExist=true

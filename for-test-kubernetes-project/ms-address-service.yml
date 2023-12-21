@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: ms-address-service
+server:
+  port: 8381

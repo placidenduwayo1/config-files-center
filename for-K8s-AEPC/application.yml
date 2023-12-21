@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true
+    discovery:
+      enabled: true
+  config:
+    activate:
+      on-profile: develop

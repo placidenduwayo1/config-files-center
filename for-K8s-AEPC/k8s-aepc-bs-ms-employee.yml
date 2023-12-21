@@ -1,0 +1,7 @@
+server:
+  port: 8283
+spring:
+  application:
+    name: k8s-aepc-bs-ms-employee
+  datasource:
+    url: jdbc:mysql://k8s-aepc-db-service:3306/k8s-employee-db?createDatabaseIfNotExist=true

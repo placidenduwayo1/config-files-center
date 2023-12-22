@@ -1,5 +1,0 @@
-server:
-  port: 8881
-spring:
-  application:
-    name: k8s-ingress-kafka-avro-cacm-bs-ms-address

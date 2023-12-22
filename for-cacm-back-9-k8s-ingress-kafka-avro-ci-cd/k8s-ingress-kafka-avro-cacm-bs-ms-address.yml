@@ -3,5 +3,3 @@ server:
 spring:
   application:
     name: k8s-ingress-kafka-avro-cacm-bs-ms-address
-  datasource:
-   url: jdbc:mysql://bs-ms-database:3307/addresses-db?createDatabaseIfNotExist=true

@@ -10,7 +10,7 @@ spring:
       globalcors:
         cors-configurations:
           '[/**]':
-            allowedOriginPatterns: "http://localhost:4202"
+            allowedOriginPatterns: "http://localhost:4200"
             allowedMethods:
               - GET
               - PUT

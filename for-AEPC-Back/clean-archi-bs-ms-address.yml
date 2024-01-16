@@ -4,4 +4,4 @@ spring:
   application:
     name: clean-archi-bs-ms-address
   datasource:
-    url: jdbc:mysql://aepc-ms-apis-db:3306/addresses-db?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/addresses-db?createDatabaseIfNotExist=true

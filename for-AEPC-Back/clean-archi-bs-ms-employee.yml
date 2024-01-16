@@ -4,4 +4,4 @@ spring:
   application:
     name: clean-archi-bs-ms-employee
   datasource:
-    url: jdbc:mysql://aepc-ms-apis-db:3306/employees-db?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/employees-db?createDatabaseIfNotExist=true

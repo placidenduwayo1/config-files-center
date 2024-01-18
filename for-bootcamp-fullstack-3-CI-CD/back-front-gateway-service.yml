@@ -3,23 +3,4 @@ server:
 spring:
   application:
     name: back-front-gateway-service
-  cloud:
-    gateway:
-      default-filters:
-        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
-      globalcors:
-        cors-configurations:
-          '[/**]':
-            allowedOriginPatterns: "http://localhost:4200"
-            allowedMethods:
-              - GET
-              - PUT
-              - POST
-              - DELETE
-              - OPTIONS
-            allowedHeaders: 
-              - Accept
-              - Content-Type
-              - Origin
-              - X-Tenant
-              - Authorization
+         

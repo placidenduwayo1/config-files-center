@@ -1,0 +1,7 @@
+server:
+  port: 9012
+spring:
+  application:
+    name: clean-archi-bs-ms-address
+  datasource:
+    url: jdbc:mysql://localhost:3306/addresses-db?createDatabaseIfNotExist=true

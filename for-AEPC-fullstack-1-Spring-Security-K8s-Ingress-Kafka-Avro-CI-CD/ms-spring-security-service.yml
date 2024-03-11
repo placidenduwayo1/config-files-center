@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ms-spring-security-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/users-roles-db?createDatabaseIfNotExist=true
+server:
+ port: 9011
+         

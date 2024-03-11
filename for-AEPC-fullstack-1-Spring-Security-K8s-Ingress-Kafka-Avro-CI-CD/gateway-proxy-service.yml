@@ -1,0 +1,6 @@
+server:
+  port: 9016
+spring:
+  application:
+    name: gateway-proxy-service
+         

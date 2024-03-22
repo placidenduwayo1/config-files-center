@@ -21,4 +21,4 @@ spring:
 eureka:
   client:
     service-url:
-     defaultZone: http://localhost:9008/eureka/ # this is docker image of regsitraion service
+     defaultZone: http://localhost:9009/eureka/ # this is docker image of regsitraion service

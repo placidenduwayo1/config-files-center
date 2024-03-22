@@ -2,7 +2,7 @@ server:
   port: 8761
 spring:
   application:
-    name: ms-registration-service
+    name: aepc-api-ms-registry-service
 eureka:
   client:
     register-with-eureka: true

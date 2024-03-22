@@ -9,4 +9,4 @@ aepc-api-spring-secur-oauth2-kafka-bs-ms-employee
 eureka:
   client:
     service-url:
-     defaultZone: http://localhost:9009/eureka/ # this is docker image of regsitraion service
+     defaultZone: http://localhost:8761/eureka/ # this is docker image of regsitraion service

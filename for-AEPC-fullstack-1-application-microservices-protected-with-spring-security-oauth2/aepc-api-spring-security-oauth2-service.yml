@@ -5,4 +5,10 @@ spring:
     url: jdbc:mysql://localhost:3306/users-roles-db?createDatabaseIfNotExist=true
 server:
  port: 9011
+  # to indicate where services registration is running on
+eureka:
+  client:
+    service-url:
+     defaultZone: http://aepc-api-ms-registry-service:8761/eureka/ # this is docker image of regsitraion service
+         
          

@@ -1,5 +1,5 @@
 server:
-  port: 9009
+  port: 8761
 spring:
   application:
     name: aepc-api-ms-registry-service

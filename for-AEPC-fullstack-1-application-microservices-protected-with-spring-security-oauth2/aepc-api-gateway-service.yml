@@ -7,5 +7,5 @@ spring:
 eureka:
   client:
     service-url:
-     defaultZone: http://aepc-api-ms-registry-service:9009/eureka/ # this is docker image of regsitraion service
+     defaultZone: http://aepc-api-ms-registry-service:8761/eureka/ # this is docker image of regsitraion service
          

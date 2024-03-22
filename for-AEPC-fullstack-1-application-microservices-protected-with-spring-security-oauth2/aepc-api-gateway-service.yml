@@ -3,4 +3,9 @@ server:
 spring:
   application:
     name: aepc-api-gateway-service
+  # to indicate where services registration is running on
+eureka:
+  client:
+    service-url:
+     defaultZone: http://aepc-api-ms-registry-service:9009/eureka/ # this is docker image of regsitraion service
          

@@ -17,8 +17,3 @@ spring:
     openfeign:
       circuitbreaker:
         enabled: true
-# to indicate where services registration is running on
-eureka:
-  client:
-    service-url:
-     defaultZone: http://localhost:9009/eureka/ # this is docker image of regsitraion service

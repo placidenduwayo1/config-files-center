@@ -2,6 +2,6 @@ server:
   port: 9015
 spring:
   application:
-    name: clean-archi-bs-ms-project
+    name: aepc-api-spring-secur-oauth2-kafka-bs-ms-project
   datasource:
     url: jdbc:mysql://localhost:3306/projects-db?createDatabaseIfNotExist=true

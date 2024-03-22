@@ -2,6 +2,6 @@ server:
   port: 9013
 spring:
   application:
-    name: clean-archi-bs-ms-company
+    name: aepc-api-spring-secur-oauth2-kafka-bs-ms-company
   datasource:
     url: jdbc:mysql://localhost:3306/companies-db?createDatabaseIfNotExist=true

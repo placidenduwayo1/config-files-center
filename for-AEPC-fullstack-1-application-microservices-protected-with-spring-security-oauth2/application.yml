@@ -1,7 +1,7 @@
 spring:
   datasource:
-    username: admin
-    password: pwd
+    username: root
+    password: root
   jpa:
     show-sql: true
     hibernate:

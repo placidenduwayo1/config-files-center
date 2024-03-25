@@ -17,3 +17,7 @@ spring:
     openfeign:
       circuitbreaker:
         enabled: true
+eureka:
+  client:
+    service-url: 
+    	defaultZone: http://localhsot:8761/eureka/

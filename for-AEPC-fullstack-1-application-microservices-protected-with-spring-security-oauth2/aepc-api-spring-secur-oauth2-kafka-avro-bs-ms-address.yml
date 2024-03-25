@@ -4,6 +4,4 @@ spring:
   application:
     name: aepc-api-spring-secur-oauth2-kafka-avro-bs-ms-address
   datasource:
-    url: jdbc:mysql://localhost:3306/addresses-db?createDatabaseIfNotExist=true
-
-         
+    url: jdbc:mysql://localhost:3306/addresses-db?createDatabaseIfNotExist=true        

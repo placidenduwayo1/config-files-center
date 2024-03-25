@@ -5,9 +5,5 @@ spring:
     name: aepc-api-spring-secur-oauth2-kafka-avro-bs-ms-address
   datasource:
     url: jdbc:mysql://localhost:3306/addresses-db?createDatabaseIfNotExist=true
- # to indicate where services registration is running on
-eureka:
-  client:
-    service-url:
-     defaultZone: http://localhost:8761/eureka/ # this is docker image of regsitraion service
+
          

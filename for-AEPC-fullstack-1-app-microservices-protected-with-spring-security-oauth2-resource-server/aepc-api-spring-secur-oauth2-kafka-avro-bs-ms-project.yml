@@ -4,4 +4,4 @@ spring:
   application:
     name: aepc-api-spring-secur-oauth2-kafka-avro-bs-ms-project
   datasource:
-    url: jdbc:mysql://localhost:3306/projects-db?createDatabaseIfNotExist=true
+    url: jdbc:postgresql://localhost:5432/projects-db?createDatabaseIfNotExist=true

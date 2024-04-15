@@ -3,5 +3,11 @@ spring:
     name: aepc-api-spring-security-oauth2-service
   datasource:
     url: jdbc:mysql://localhost:3306/users-roles-db
+    username: root
+    password: root 
+  jpa: 
+    properties:
+      hibernate: 
+        dialect: org.hibernate.dialect.MySQLDialect
 server:
  port: 9011

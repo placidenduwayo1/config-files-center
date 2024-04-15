@@ -4,4 +4,10 @@ spring:
   application:
     name: aepc-api-spring-secur-oauth2-kafka-avro-bs-ms-employee
   datasource:
-    url: jdbc:postgresql://localhost:5432/employees-db?createDatabaseIfNotExist=true
+    url: jdbc:postgresql://localhost:5432/employees-db
+    username: admin
+    password: admin123 
+  jpa: 
+    properties:
+      hibernate: 
+        dialect: org.hibernate.dialect.PostgreSQLDialect   
